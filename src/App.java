@@ -6,14 +6,15 @@ public class App {
     public static void main(String[] args) {
         RandomGenerator randomGenerator = new RandomGenerator();
 
-                Calculator calculator = new Calculator();
-                System.out.println(calculator.sum(randomGenerator.getSmallNumber() ,randomGenerator.getBigNumber()));
-                System.out.println(calculator.subtract(randomGenerator.getSmallNumber(),randomGenerator.getBigNumber()));
-                System.out.println(calculator.multiply(randomGenerator.getSmallNumber(),randomGenerator.getBigNumber()));
-                System.out.println(calculator.divide(randomGenerator.getSmallNumber(),randomGenerator.getBigNumber()));
-                System.out.println(calculator.divide(randomGenerator.getSmallNumber(),randomGenerator.getBigNumber()));
-        System.out.println(calculator.factorial(randomGenerator.getSmallNumber()));
-
+                Calculator myCalculator = new Calculator();
+                System.out.println(myCalculator.sum(randomGenerator.getSmallNumber() ,randomGenerator.getBigNumber()));
+                System.out.println(myCalculator.subtract(randomGenerator.getSmallNumber(),randomGenerator.getBigNumber()));
+                System.out.println(myCalculator.multiply(randomGenerator.getSmallNumber(),randomGenerator.getBigNumber()));
+                System.out.println(myCalculator.divide(randomGenerator.getSmallNumber(),randomGenerator.getBigNumber()));
+                System.out.println(myCalculator.divide(randomGenerator.getSmallNumber(),randomGenerator.getBigNumber()));
+        System.out.println(myCalculator.factorial(randomGenerator.getSmallNumber()));
+        System.out.println("hello world");
+// TODO ogarnac w wolnej chwili gita
     }
         }
 
