@@ -11,10 +11,10 @@ public class RandomGenerator {
     }
 
     public int getSmallNumber() {
-        return random.nextInt(5);
+        return random.nextInt(5)+3;
     }
     public int getBigNumber() {
-    return random.nextInt(5)+5;
+    return random.nextInt(5)+10;
     }
 
 }
